@@ -1,22 +1,24 @@
 {
   "name": "realtime-analytics-dashboard",
   "version": "1.0.0",
-  "description": "Real-time payment analytics dashboard built with React, TypeScript, and Redux",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^8.1.0",
-    "@reduxjs/toolkit": "^1.9.7",
+    "react-redux": "^9.0.0",
+    "@reduxjs/toolkit": "^2.0.0",
     "recharts": "^2.10.0",
-    "axios": "^1.6.0",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
     "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0"
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
   }
 }
