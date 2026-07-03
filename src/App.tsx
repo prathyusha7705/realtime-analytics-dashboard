@@ -34,8 +34,8 @@ const App: React.FC = () => {
     <div style={{ maxWidth: 980, margin: '0 auto', padding: '32px 20px', fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif', background: '#f9f9f8', minHeight: '100vh' }}>
       <div style={{ marginBottom: 28, display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
         <div>
-          <div style={{ fontSize: 11, fontWeight: 600, color: '#888', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>OnePay · Internal Platform</div>
-          <h1 style={{ fontSize: 24, fontWeight: 600, margin: 0, color: '#111' }}>Transaction monitoring</h1>
+          <div style={{ fontSize: 11, fontWeight: 600, color: '#888', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 4 }}>Fintech · Payment Platform</div>
+          <h1 style={{ fontSize: 24, fontWeight: 600, margin: 0, color: '#111' }}>Transaction monitor</h1>
           <p style={{ fontSize: 13, color: '#888', margin: '4px 0 0' }}>Real-time view across wallet, P2P, BNPL, and savings transactions</p>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, background: '#fff', border: '0.5px solid #e5e5e5', borderRadius: 8, padding: '8px 14px', fontSize: 12 }}>
@@ -47,7 +47,7 @@ const App: React.FC = () => {
       <TransactionChart transactions={transactions} />
       <TransactionTable transactions={transactions} />
       <div style={{ marginTop: 24, fontSize: 11, color: '#bbb', textAlign: 'center' }}>
-        OnePay Transaction Monitoring · Internal dashboard · Data simulated for demo
+        Built to reflect real-world fintech patterns · P2P · BNPL · Wallet · Crypto · Savings
       </div>
     </div>
   );
