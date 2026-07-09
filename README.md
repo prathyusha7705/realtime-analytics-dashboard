@@ -19,7 +19,7 @@ A live payment transaction dashboard that updates every 4 seconds. Shows real fi
 
 ## Live demo
 
-https://realtime-analytics-dashboard-three.vercel.app
+(https://prathyusha-fintech-dashboard.vercel.app/)
 
 ---
 
